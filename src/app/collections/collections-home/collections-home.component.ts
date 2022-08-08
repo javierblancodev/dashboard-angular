@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CollectionsHomeComponent implements OnInit {
 
+  partnerUrlComponent = 'partners';
+
   data = [
     { name: 'James', age: '24', job: 'Designer', employed: true },
     { name: 'Jill', age: '26', job: 'Enginner', employed: false },
