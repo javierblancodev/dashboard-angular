@@ -1,0 +1,12 @@
+.actions:empty {
+    display: none;
+}
+
+.actions-default {
+    display: none;
+}
+
+/* Look for the next sibling element with the selector .actions-default, which it is the one that the styles applies to */
+.actions:empty + .actions-default { 
+    display: block;
+}
